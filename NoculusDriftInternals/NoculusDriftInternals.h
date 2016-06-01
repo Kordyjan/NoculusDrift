@@ -12,6 +12,7 @@ namespace NoculusDriftInternals {
 	{
 	public:
 		UINT SendKey(WORD code); // codes: https://msdn.microsoft.com/en-gb/library/windows/desktop/dd375731%28v=vs.85%29.aspx
+		UINT MoveMouse(int x, int y);
 	};
 
 	public ref class Api

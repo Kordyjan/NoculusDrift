@@ -15,7 +15,7 @@ namespace NoculusDrift {
             {
                 Thread.Sleep(2000);
                 Console.WriteLine(i);
-                Console.WriteLine(input.SendKey(0x58));
+                Console.WriteLine(input.MoveMouse(100, 100));
             }
             Console.ReadKey();
         }
