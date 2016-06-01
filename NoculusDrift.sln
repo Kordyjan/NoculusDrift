@@ -5,16 +5,40 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoculusDrift", "NoculusDrift\NoculusDrift.csproj", "{BE4AF06F-6789-43B1-9C7F-E597DAAE4253}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoculusDriftInternals", "NoculusDriftInternals\NoculusDriftInternals.vcxproj", "{EEFB7D33-AC56-446A-8F64-C745D1F0E142}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BE4AF06F-6789-43B1-9C7F-E597DAAE4253}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BE4AF06F-6789-43B1-9C7F-E597DAAE4253}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE4AF06F-6789-43B1-9C7F-E597DAAE4253}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BE4AF06F-6789-43B1-9C7F-E597DAAE4253}.Debug|x64.Build.0 = Debug|Any CPU
+		{BE4AF06F-6789-43B1-9C7F-E597DAAE4253}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BE4AF06F-6789-43B1-9C7F-E597DAAE4253}.Debug|x86.Build.0 = Debug|Any CPU
 		{BE4AF06F-6789-43B1-9C7F-E597DAAE4253}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE4AF06F-6789-43B1-9C7F-E597DAAE4253}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE4AF06F-6789-43B1-9C7F-E597DAAE4253}.Release|x64.ActiveCfg = Release|Any CPU
+		{BE4AF06F-6789-43B1-9C7F-E597DAAE4253}.Release|x64.Build.0 = Release|Any CPU
+		{BE4AF06F-6789-43B1-9C7F-E597DAAE4253}.Release|x86.ActiveCfg = Release|Any CPU
+		{BE4AF06F-6789-43B1-9C7F-E597DAAE4253}.Release|x86.Build.0 = Release|Any CPU
+		{EEFB7D33-AC56-446A-8F64-C745D1F0E142}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{EEFB7D33-AC56-446A-8F64-C745D1F0E142}.Debug|x64.ActiveCfg = Debug|x64
+		{EEFB7D33-AC56-446A-8F64-C745D1F0E142}.Debug|x64.Build.0 = Debug|x64
+		{EEFB7D33-AC56-446A-8F64-C745D1F0E142}.Debug|x86.ActiveCfg = Debug|Win32
+		{EEFB7D33-AC56-446A-8F64-C745D1F0E142}.Debug|x86.Build.0 = Debug|Win32
+		{EEFB7D33-AC56-446A-8F64-C745D1F0E142}.Release|Any CPU.ActiveCfg = Release|Win32
+		{EEFB7D33-AC56-446A-8F64-C745D1F0E142}.Release|x64.ActiveCfg = Release|x64
+		{EEFB7D33-AC56-446A-8F64-C745D1F0E142}.Release|x64.Build.0 = Release|x64
+		{EEFB7D33-AC56-446A-8F64-C745D1F0E142}.Release|x86.ActiveCfg = Release|Win32
+		{EEFB7D33-AC56-446A-8F64-C745D1F0E142}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
