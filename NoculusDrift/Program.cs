@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Runtime.InteropServices;
+using System.Threading;
 using NoculusDriftInternals;
 
 namespace NoculusDrift {
@@ -7,11 +8,15 @@ namespace NoculusDrift {
 
     class Program
     {
-        private const string InternalDll = @"NoculusDriftInternals.dll";
-
         static void Main(string[] args)
         {
-            new Nicpon().TestuTestu(7);
+            var input = new Input();
+            for (int i = 0; i < 5; ++i)
+            {
+                Thread.Sleep(2000);
+                Console.WriteLine(i);
+                Console.WriteLine(input.SendKey(0x58));
+            }
             Console.ReadKey();
         }
     }
