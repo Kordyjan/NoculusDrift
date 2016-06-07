@@ -165,8 +165,8 @@ namespace TUIO
         {
             while (connected)
             {
-                try
-                {
+//                try
+//                {
                     OSCPacket packet = receiver.Receive();
                     if (packet != null)
                     {
@@ -181,8 +181,8 @@ namespace TUIO
                         else processMessage((OSCMessage)packet);
                     }
                     else Console.WriteLine("null packet");
-                }
-                catch (Exception e) { Console.WriteLine(e.Message); }
+//                }
+//                catch (Exception e) { Console.WriteLine(e); }
             }
         }
         #endregion

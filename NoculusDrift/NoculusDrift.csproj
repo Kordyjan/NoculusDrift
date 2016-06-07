@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Listener.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,6 +54,10 @@
     <ProjectReference Include="..\NoculusDriftInternals\NoculusDriftInternals.vcxproj">
       <Project>{eefb7d33-ac56-446a-8f64-c745d1f0e142}</Project>
       <Name>NoculusDriftInternals</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TUIO_LIB\TUIO_LIB.csproj">
+      <Project>{3cbf7d4a-ce06-490d-80da-580d02c268de}</Project>
+      <Name>TUIO_LIB</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
