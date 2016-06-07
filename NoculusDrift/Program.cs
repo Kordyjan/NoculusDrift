@@ -2,6 +2,7 @@
 using System.Runtime.InteropServices;
 using System.Threading;
 using NoculusDriftInternals;
+using TUIO;
 
 namespace NoculusDrift {
 
@@ -11,13 +12,14 @@ namespace NoculusDrift {
         static void Main(string[] args)
         {
             var input = new Input();
-            for (int i = 0; i < 5; ++i)
+            for (int i = 0; i < 300; ++i)
             {
-                Thread.Sleep(2000);
-                Console.WriteLine(i);
-                Console.WriteLine(input.MoveMouse(100, 100));
+                Thread.Sleep(10);
+                input.MoveMouse(1, 1);
             }
             Console.ReadKey();
+
+            new TuioClient()
         }
     }
 }
